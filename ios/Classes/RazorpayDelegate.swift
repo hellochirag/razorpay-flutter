@@ -1,6 +1,8 @@
 import Flutter
 import Razorpay
 
+typealias Razorpay = RazorpayCheckout
+
 public class RazorpayDelegate: NSObject, RazorpayPaymentCompletionProtocolWithData, ExternalWalletSelectionProtocol {
     
     static let CODE_PAYMENT_SUCCESS = 0
